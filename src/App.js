@@ -1,6 +1,9 @@
 import './App.css';
 import React, { Component } from 'react';
 import MyComponent from './MyComponent';
+import Counter from './counter';
+import Say from './Say';
+import EventPractice from './EventPractice';
 // import './form.css'; // form 로그인 css 파일
 // function App() {
 // const name = '뤼왝트';
@@ -166,8 +169,24 @@ import MyComponent from './MyComponent';
 //   return <MyComponent />;
 // }
 
+// const App = () => {
+//   return (
+//     <MyComponent name='React!!!' favoriteNumber={1}>
+//       리액트
+//     </MyComponent>
+//   );
+// };
+
+// const App = () => {
+//   return <Counter />;
+// };
+
+// const App = () => {
+//   return <Say />;
+// };
+
 const App = () => {
-  return <MyComponent name='리액트' />;
+  return <EventPractice />;
 };
 
 export default App;
