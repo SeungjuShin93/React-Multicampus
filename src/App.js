@@ -4,6 +4,8 @@ import MyComponent from './MyComponent';
 import Counter from './counter';
 import Say from './Say';
 import EventPractice from './EventPractice';
+import EventPractice2 from './EventPractice2';
+import EventPractice3 from './EventPractice3';
 // import './form.css'; // form 로그인 css 파일
 // function App() {
 // const name = '뤼왝트';
@@ -186,7 +188,7 @@ import EventPractice from './EventPractice';
 // };
 
 const App = () => {
-  return <EventPractice />;
+  return <EventPractice3 />;
 };
 
 export default App;
