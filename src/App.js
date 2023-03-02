@@ -6,6 +6,13 @@ import Say from './Say';
 import EventPractice from './EventPractice';
 import EventPractice2 from './EventPractice2';
 import EventPractice3 from './EventPractice3';
+import ScrollBox from './ScrollBox';
+import QuizFormInput from './QuizFormInput';
+import QuizFormInput2 from './QuizFormInput2';
+import QuizFormInput3 from './QuizFormInput3';
+import QuizFormInput4 from './QuizFormInput4';
+import QuizFormInput5 from './QuizFormInput5';
+import IterationSample from './IterationSample';
 // import './form.css'; // form 로그인 css 파일
 // function App() {
 // const name = '뤼왝트';
@@ -187,8 +194,27 @@ import EventPractice3 from './EventPractice3';
 //   return <Say />;
 // };
 
-const App = () => {
-  return <EventPractice3 />;
-};
+// const App = () => {
+//   return <EventPractice3 />;
+// };
+
+// const App = () => {
+//   return <ScrollBox />;
+// };
+// class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <ScrollBox ref={(ref) => (this.scrollBox = ref)} />
+//         <button onClick={() => this.scrollBox.scrollToBottom()}>
+//           맨 밑으로
+//         </button>
+//       </div>
+//     );
+//   }
+// }
+function App() {
+  return <QuizFormInput5 />;
+}
 
 export default App;
